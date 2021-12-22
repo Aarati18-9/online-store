@@ -1,134 +1,202 @@
 	<!-- Footer -->
-	<footer class="bg3 p-t-75 p-b-32">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						Categories
-					</h4>
 
-					<ul>
-						<li class="p-b-10">
-							<a href="catview.php?cat_id=1" class="stext-107 cl7 hov-cl1 trans-04">
-								Women
-							</a>
-						</li>
+	<head>
+		<style>
+			*,
+			*:after,
+			*:before {
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
 
-						<li class="p-b-10">
-							<a href="catview.php?cat_id=2" class="stext-107 cl7 hov-cl1 trans-04">
-								Men
-							</a>
-						</li>
+			body {
+				margin: 0;
+				overflow-x: hidden !important;
+				box-sizing: border-box;
+				font-family: 'Source Sans Pro', sans-serif;
+			}
 
-						<li class="p-b-10">
-							<a href="catview.php?cat_id=3" class="stext-107 cl7 hov-cl1 trans-04">
-								Kids
-							</a>
-						</li>
 
-						<li class="p-b-10">
-							<a href="catview.php?cat_id=4" class="stext-107 cl7 hov-cl1 trans-04">
-								Acessories
-							</a>
-						</li>
-					</ul>
-				</div>
+			a {
+				text-decoration: none;
+				outline: none !important;
+				color: #fff;
+			}
 
-				<div class="col-sm-6 col-lg-3 p-b-50">
-					
-				</div>
+			.border-shape {
+				background: #ffbe00 none repeat scroll 0 0;
+				color: #fff;
+				display: block;
+				height: 3px;
+				left: 0;
+				margin: 20px auto;
+				position: relative;
+				right: 0;
+				text-align: center;
+				top: 0;
+				width: 80px;
+			}
 
-				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						Have something to say?
-					</h4>
+			.border-shape::before {
+				background: #ffbe00 none repeat scroll 0 0;
+				bottom: 0;
+				content: "";
+				height: 1px;
+				left: 80px;
+				margin: 0 auto;
+				position: absolute;
+				text-align: center;
+				top: 1px;
+				width: 100px;
+			}
 
-					<p class="stext-107 cl7 size-201">
-						Our customer care is always willing to help. Let us know what your concerns are Galaxy business complex, Raniban, Pokhara. 977-054-404-543
-					</p>
+			.border-shape::after {
+				background: #ffbe00 none repeat scroll 0 0;
+				bottom: 0;
+				content: "";
+				height: 1px;
+				margin: 0 auto;
+				position: absolute;
+				right: 80px;
+				text-align: center;
+				top: 1px;
+				width: 100px;
+			}
 
-					<div class="p-t-27">
-						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-							<i class="fa fa-facebook"></i>
-						</a>
+			/*FOOTER*/
+			footer {
+				width: 100%;
+				background-color: #121619;
+				color: #fff;
+			}
 
-						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-							<i class="fa fa-instagram"></i>
-						</a>
+			.top_header {
+				padding: 2rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: relative;
+			}
 
-						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-							<i class="fa fa-pinterest-p"></i>
-						</a>
-					</div>
-				</div>
+			.top_header section {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+			}
 
-				<div class="col-sm-6 col-lg-3 p-b-50">
-					<!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
+			.top_header span {
+				padding: 0 1rem;
+			}
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+			.top_header .fa {
+				color: #ffbe00;
+				font-size: 35px;
+			}
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "100331035663348");
-      chatbox.setAttribute("attribution", "biz_inbox");
+			footer .border-shape {
+				width: 40%;
+			}
 
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v12.0'
-        });
-      };
+			footer .border-shape::before {
+				width: 100%;
+				left: 120px;
+			}
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-				</div>
-			</div>
+			footer .border-shape::after {
+				width: 100%;
+				right: 120px;
+			}
 
-			<div class="p-t-40">
-				<div class="flex-c-m flex-w p-b-18">
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-01.png" alt="ICON-PAY">
-					</a>
+			footer .bottom_content section {
+				padding: 1.5rem 2rem;
+				display: flex;
+				align-items: center;
+				justify-content: Center;
+			}
 
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-02.png" alt="ICON-PAY">
-					</a>
+			.bottom_content a {
+				margin: 0 20px;
+				color: rgba(255, 255, 255, 0.7);
+				transition: 0.5s;
+			}
 
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-03.png" alt="ICON-PAY">
-					</a>
+			.bottom_content a:hover {
+				color: rgba(255, 255, 255, 1);
+			}
 
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-04.png" alt="ICON-PAY">
-					</a>
 
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-05.png" alt="ICON-PAY">
-					</a>
-				</div>
+			.copyright {
+				padding: 0.8em 0;
+				background-color: #1e1e1e;
+				text-align: center;
+				color: rgba(255, 255, 255, 0.7);
+				font-size: 12px;
+			}
 
-				<p class="stext-107 cl6 txt-center">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<p class="stext-107 cl6 txt-center">
-Project submission by Arjan KC Roll number 007</p>
 
-				</p>
-			</div>
+
+			@media (max-width:820px) {
+				.top_header {
+					padding: 1rem;
+					display: block;
+				}
+
+				.top_header section {
+					margin: 40px 0;
+					align-items: left;
+					justify-content: left;
+				}
+
+				footer .bottom_content section {
+					padding: 1rem;
+					display: block;
+				}
+
+				footer .bottom_content section a {
+					padding: 1rem;
+					font-size: 12px;
+					margin: 0 5px;
+					display: inline-block;
+				}
+			}
+		</style>
+	</head>
+	<footer>
+		<div class="top_header">
+			<section>
+				<span><i class="fa fa-map-marker"></i></span>
+				<span>Lubhoo,Lalitpur Nepal</span>
+			</section>
+			<section>
+				<span><i class="fa fa-phone"></i></span>
+				<span><a href="tel:+977-053-34567">+977-053-34567</a></span>
+			</section>
+			<section>
+				<span><i class="fa fa-envelope"></i></span>
+				<span><a href="mailto:adhikariaarati68@gmail.com">Send email</a></span>
+			</section>
+		</div>
+		<span class="border-shape"></span>
+		<div class="bottom_content">
+			<section>
+				<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+				<a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+			</section>
+			<section>
+				<a href="index.php">Home</a>
+				<a href="about.php">About us</a>
+				<a href="contact.php">Contact Us</a>
+			</section>
+		</div>
+		<div class="copyright">
+			Copyright © 2021 Joyas - All rights reserved
 		</div>
 	</footer>
 
-
+	<!--Footer End-->
 	<!-- Back to top -->
 	<div class="btn-back-to-top" id="myBtn">
 		<span class="symbol-btn-back-to-top">
@@ -187,69 +255,69 @@ Project submission by Arjan KC Roll number 007</p>
 							</div>
 						</div>
 					</div>
-					
+
 					<div class="col-md-6 col-lg-5 p-b-30">
-						
+
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-<!--===============================================================================================-->	
+	<!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/bootstrap/js/popper.js"></script>
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/select2/select2.min.js"></script>
 	<script>
-		$(".js-select2").each(function(){
+		$(".js-select2").each(function() {
 			$(this).select2({
 				minimumResultsForSearch: 20,
 				dropdownParent: $(this).next('.dropDownSelect2')
 			});
 		})
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/daterangepicker/moment.min.js"></script>
 	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/slick/slick.min.js"></script>
 	<script src="js/slick-custom.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/parallax100/parallax100.js"></script>
 	<script>
-        $('.parallax100').parallax100();
+		$('.parallax100').parallax100();
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
 	<script>
 		$('.gallery-lb').each(function() { // the containers for all your galleries
 			$(this).magnificPopup({
-		        delegate: 'a', // the selector for gallery item
-		        type: 'image',
-		        gallery: {
-		        	enabled:true
-		        },
-		        mainClass: 'mfp-fade'
-		    });
+				delegate: 'a', // the selector for gallery item
+				type: 'image',
+				gallery: {
+					enabled: true
+				},
+				mainClass: 'mfp-fade'
+			});
 		});
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/sweetalert/sweetalert.min.js"></script>
 	<script>
-		$('.js-addwish-b2').on('click', function(e){
+		$('.js-addwish-b2').on('click', function(e) {
 			e.preventDefault();
 		});
 
-		$('.js-addwish-b2').each(function(){
+		$('.js-addwish-b2').each(function() {
 			var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
-			$(this).on('click', function(){
+			$(this).on('click', function() {
 				swal(nameProduct, "is added to wishlist !", "success");
 
 				$(this).addClass('js-addedwish-b2');
@@ -257,10 +325,10 @@ Project submission by Arjan KC Roll number 007</p>
 			});
 		});
 
-		$('.js-addwish-detail').each(function(){
+		$('.js-addwish-detail').each(function() {
 			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
 
-			$(this).on('click', function(){
+			$(this).on('click', function() {
 				swal(nameProduct, "is added to wishlist !", "success");
 
 				$(this).addClass('js-addedwish-detail');
@@ -270,30 +338,29 @@ Project submission by Arjan KC Roll number 007</p>
 
 		/*---------------------------------------------*/
 
-		$('.js-addcart-detail').each(function(){
+		$('.js-addcart-detail').each(function() {
 			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
-			$(this).on('click', function(){
+			$(this).on('click', function() {
 				swal(nameProduct, "is added to cart !", "success");
 			});
 		});
-	
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 	<script>
-		$('.js-pscroll').each(function(){
-			$(this).css('position','relative');
-			$(this).css('overflow','hidden');
+		$('.js-pscroll').each(function() {
+			$(this).css('position', 'relative');
+			$(this).css('overflow', 'hidden');
 			var ps = new PerfectScrollbar(this, {
 				wheelSpeed: 1,
 				scrollingThreshold: 1000,
 				wheelPropagation: false,
 			});
 
-			$(window).on('resize', function(){
+			$(window).on('resize', function() {
 				ps.update();
 			})
 		});
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="js/main.js"></script>

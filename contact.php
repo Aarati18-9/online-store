@@ -9,7 +9,7 @@
 	include ("files/header.php");
 	?>	
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/contact (2).jpg');">
 		<h2 class="ltext-105 cl0 txt-center">
 			Contact
 		</h2>
@@ -52,8 +52,8 @@
 								Address
 							</span>
 
-							<p class="stext-115 cl6 size-213 p-t-18">
-								Galaxy business complex, Raniban, Pokhara
+							<p class="stext-115 cl6 size-213 p-t-18" style="color: black;">
+								Lubhoo,Lalitpur Nepal
 							</p>
 						</div>
 					</div>
@@ -69,7 +69,7 @@
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								+977-054-404543
+								<a href="tel:+977-053-34567" style="color: black;">+977-053-34567</a>
 							</p>
 						</div>
 					</div>
@@ -85,7 +85,7 @@
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								admin@gmail.com
+								<a href="mailto:admin@gmail.com" style="color: black;">admin@gmail.com</a>
 							</p>
 						</div>
 					</div>
@@ -96,9 +96,9 @@
 	
 	
 	<!-- Map -->
-		<iframe width=100% height=100% style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ44wF2egZ6zkRlGWVfmQBn18&key=AIzaSyCMHZ170cR79ONoqJqN7OPsgBuw_qDEyrk"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.4078148200165!2d85.37112411438305!3d27.64285163493168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb10bdd4e4283b%3A0xb1eaa627a7422774!2sLubhu!5e0!3m2!1sen!2snp!4v1640154619416!5m2!1sen!2snp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	
-
+<br><br>
 <?php
 	include ("files/footer.php");
 ?>

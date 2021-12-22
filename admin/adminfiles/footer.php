@@ -1,8 +1,7 @@
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Submitted by</b> Arjan KC
+      <b>Welcome Back Admin</b>
     </div>
-    <strong>MIS and Ebusiness Project </strong>
   </footer>
 <div class="control-sidebar-bg"></div>
 </div>

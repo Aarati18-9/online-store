@@ -9,17 +9,17 @@
    <div class="top-bar">
       <div class="content-topbar flex-sb-m h-full container">
          <div class="left-top-bar">
-            Nepali Traditional Attires
+            GET YOUR FAVOURITE JEWELS AT CONVENIENT PRICE
          </div>
          <div class="right-top-bar flex-w h-full">
             <?php
                if (!empty($_SESSION['email'])) {?>
             <a href="handler/customerlogout.php" class="flex-c-m trans-04 p-lr-25">
-            Logout
+            <i class="fa fa-sign-out">  Logout</i>
             </a>
             <?php }else{ ?> 
             <a href="customerforms.php" class="flex-c-m trans-04 p-lr-25">
-            login
+            <i class="fa fa-user">    Login</i>
             </a>
             <?php } ?>
          </div>
@@ -29,7 +29,7 @@
       <nav class="limiter-menu-desktop container">
          <!-- Logo desktop -->		
          <a href="index.php" class="logo">
-         <img src="images/icons/logo-01.png" alt="IMG-LOGO">
+         <img src="images/icons/Joyas (2).png" alt="IMG-LOGO">
          </a>
          <!-- Menu desktop -->
          <div class="menu-desktop">

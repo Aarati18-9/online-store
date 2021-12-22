@@ -11,27 +11,27 @@
         <li class="header"><?php echo $_SESSION['email'] ?></li>
         <li>
           <a href="index.php">
-            <i class="fa fa-th"></i> <span>Home</span>
+          <i class="fa fa-home"></i> <span>Home</span>
           </a>
         </li>
         <li>
           <a href="categories.php">
-            <i class="fa fa-th"></i> <span>Category</span>
+            <i class="fa fa-cubes"></i> <span>Category</span>
           </a>
         </li>
         <li>
           <a href="productsshow.php">
-            <i class="fa fa-th"></i> <span>Products</span>
+            <i class="fa fa-shopping-basket"></i> <span>Products</span>
           </a>
         </li>
         <li>
           <a href="orders.php">
-            <i class="fa fa-th"></i> <span>Orders</span>
+            <i class="fa fa-cart-plus"></i> <span>Orders</span>
           </a>
         </li>
         <li>
           <a href="adminfiles/logout.php">
-            <i class="fa fa-th"></i> <span>Sign Out</span>
+            <i class="fa fa-sign-out"></i> <span>Sign Out</span>
           </a>
         </li>
       </ul>
