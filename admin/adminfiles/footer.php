@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 <footer class="main-footer">
   <div class="pull-right hidden-xs">
     <b>Welcome Back Admin</b>
   </div>
 </footer>
+=======
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Welcome Back Admin</b>
+    </div>
+  </footer>
+>>>>>>> b7e68c0009a21ddac6e69bafe4addea6aca96205
 <div class="control-sidebar-bg"></div>
 </div>
 

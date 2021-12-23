@@ -5,11 +5,19 @@ include("files/head.php");
 ?>
 
 <body class="animsition">
+<<<<<<< HEAD
 
 	<?php
 	include("files/header.php");
 	?>
 	<br>
+=======
+	
+<?php
+	include ("files/header.php");
+	?>	
+<br>
+>>>>>>> b7e68c0009a21ddac6e69bafe4addea6aca96205
 	<!-- Product -->
 	<div class="bg0 m-t-23 p-b-140">
 		<div class="container">

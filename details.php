@@ -94,6 +94,7 @@ include("files/head.php");
 						<!--  -->
 						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
 
+<<<<<<< HEAD
 							<!-- 							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
 								<i class="fa fa-facebook"></i>
 							</a>
@@ -101,10 +102,9 @@ include("files/head.php");
 							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Twitter">
 								<i class="fa fa-twitter"></i>
 							</a>
+=======
+>>>>>>> b7e68c0009a21ddac6e69bafe4addea6aca96205
 
-							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Google Plus">
-								<i class="fa fa-google-plus"></i>
-							</a> -->
 						</div>
 					</div>
 				</div>

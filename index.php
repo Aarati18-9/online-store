@@ -159,7 +159,11 @@ include("files/head.php");
 							</div>
 							<h4>Dedicated support</h4>
 							<p>We offer 24x7 services</p>
+<<<<<<< HEAD
 
+=======
+							
+>>>>>>> b7e68c0009a21ddac6e69bafe4addea6aca96205
 						</div>
 					</div>
 				</div>

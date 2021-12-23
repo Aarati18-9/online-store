@@ -197,8 +197,11 @@
 	</footer>
 
 	<!--Footer End-->
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> b7e68c0009a21ddac6e69bafe4addea6aca96205
 	<!-- Back to top -->
 	<div class="btn-back-to-top" id="myBtn">
 		<span class="symbol-btn-back-to-top">

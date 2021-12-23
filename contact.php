@@ -98,11 +98,19 @@ include("files/head.php");
 
 	<!-- Map -->
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.4078148200165!2d85.37112411438305!3d27.64285163493168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb10bdd4e4283b%3A0xb1eaa627a7422774!2sLubhu!5e0!3m2!1sen!2snp!4v1640154619416!5m2!1sen!2snp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<<<<<<< HEAD
 
 	<br><br>
 	<?php
 	include("files/footer.php");
 	?>
+=======
+	
+<br><br>
+<?php
+	include ("files/footer.php");
+?>
+>>>>>>> b7e68c0009a21ddac6e69bafe4addea6aca96205
 </body>
 
 </html>
