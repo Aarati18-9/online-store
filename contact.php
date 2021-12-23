@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-	include ("files/head.php");
+include("files/head.php");
 ?>
+
 <body class="animsition">
-	
-<?php
-	include ("files/header.php");
-	?>	
+
+	<?php
+	include("files/header.php");
+	?>
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/contact (2).jpg');">
 		<h2 class="ltext-105 cl0 txt-center">
 			Contact
 		</h2>
-	</section>	
+	</section>
 
 
 	<!-- Content page -->
@@ -21,7 +22,7 @@
 		<div class="container">
 			<div class="flex-w flex-tr">
 				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
-					<form action = "handler/contact.php" method="POST">
+					<form action="handler/contact.php" method="POST">
 						<h4 class="mtext-105 cl2 txt-center p-b-30">
 							Send Us A Message
 						</h4>
@@ -52,8 +53,8 @@
 								Address
 							</span>
 
-							<p class="stext-115 cl6 size-213 p-t-18">
-								Galaxy business complex, Raniban, Pokhara
+							<p class="stext-115 cl6 size-213 p-t-18" style="color: black;">
+								Lubhoo,Lalitpur Nepal
 							</p>
 						</div>
 					</div>
@@ -69,7 +70,7 @@
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								+977-054-404543
+								<a href="tel:+977-053-34567" style="color: black;">+977-053-34567</a>
 							</p>
 						</div>
 					</div>
@@ -85,22 +86,23 @@
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								admin@gmail.com
+								<a href="mailto:admin@gmail.com" style="color: black;">admin@gmail.com</a>
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>	
-	
-	
-	<!-- Map -->
-		<iframe width=100% height=100% style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ44wF2egZ6zkRlGWVfmQBn18&key=AIzaSyCMHZ170cR79ONoqJqN7OPsgBuw_qDEyrk"></iframe>
-	
+	</section>
 
-<?php
-	include ("files/footer.php");
-?>
+
+	<!-- Map -->
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.4078148200165!2d85.37112411438305!3d27.64285163493168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb10bdd4e4283b%3A0xb1eaa627a7422774!2sLubhu!5e0!3m2!1sen!2snp!4v1640154619416!5m2!1sen!2snp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+	<br><br>
+	<?php
+	include("files/footer.php");
+	?>
 </body>
+
 </html>

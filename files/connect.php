@@ -2,7 +2,7 @@
 $host="localhost";
 $user="root";
 $password="";
-$dbname="mystore";
+$dbname="joyas";
 
 $connect=mysqli_connect($host,$user,$password,$dbname);
 
