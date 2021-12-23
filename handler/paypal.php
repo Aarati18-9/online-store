@@ -9,7 +9,7 @@
     <!-- Add meta tags for mobile and IE -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title> PayPal Checkout Integration | Client Demo </title>
+    <title> PayPal Checkout Integration</title>
 </head>
 
 <body>
@@ -43,11 +43,7 @@
                     var transaction = orderData.purchase_units[0].payments.captures[0];
                     alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
 
-                    // Replace the above to show a success message within this page, e.g.
-                    // const element = document.getElementById('paypal-button-container');
-                    // element.innerHTML = '';
-                    // element.innerHTML = '<h3>Thank you for your payment!</h3>';
-                    // Or go to another URL:  actions.redirect('thank_you.html');
+                    
                 });
             }
 
